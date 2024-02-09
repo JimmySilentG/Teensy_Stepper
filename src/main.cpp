@@ -13,7 +13,7 @@ void setup() {
   digitalWrite(EnablePin, LOW);
   stepper.setMaxSpeed(30); //6400 should be 8 revolutions per second which is max start speed for motor
   stepper.setAcceleration(10);
-  stepper.moveTo(1400);
+  stepper.moveTo(1450);
 }
 
 void loop() {
